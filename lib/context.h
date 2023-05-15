@@ -175,6 +175,7 @@ struct exec_context {
         /* check_interrupt() */
         const atomic_uint *intrp;
         struct cluster *cluster;
+        uint32_t check_interval;
 
         /* scheduler */
         struct sched *sched;
